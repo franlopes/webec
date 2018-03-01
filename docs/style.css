@@ -1,0 +1,48 @@
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 10px;
+  align-self: center;
+}
+
+th {
+  background-color: #7FD4F9;
+  color: black;
+}
+
+tr:hover {
+  background-color: #7FD4F9;
+}
+
+header {
+  text-align: center;
+  background-color: #7FD4F9;
+}
+
+h1 {
+  text-align: center;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.important {
+  font-weight: bold;
+}
+
+.content {
+  margin: auto;
+}
+
+.description {
+  text-align: center;
+}
+
+* {
+  text-align: center;
+}
