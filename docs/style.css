@@ -1,5 +1,10 @@
+body {
+    background-color: lightblue;
+}
+
 table {
   border-collapse: collapse;
+  background-color: white;
 }
 
 table, th, td {
@@ -35,6 +40,11 @@ table.center {
   font-weight: bold;
 }
 
+.notimportant {
+  font-weight: lighter;
+  color: gray;
+}
+
 .content {
   margin: auto;
 }
@@ -45,4 +55,15 @@ table.center {
 
 * {
   text-align: center;
+  font-family: monospace;
+}
+
+.icon {
+  color: blue;
+  text-decoration: underline;
+}
+
+.icon:hover {
+  color: gray;
+  font-weight: bold;
 }
